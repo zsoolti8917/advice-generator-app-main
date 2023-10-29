@@ -124,9 +124,9 @@ body {
   z-index: 5;
 }
 .container .advice-button:disabled {
-  background-color: #cccccc; /* Change to a grayish color to indicate it's disabled */
-  cursor: not-allowed; /* Display a 'not-allowed' cursor */
-  opacity: 0.6; /* Reduce opacity to make it look inactive */
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 
 @media screen and (min-width: 1024px) {

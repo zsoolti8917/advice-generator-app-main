@@ -19,7 +19,6 @@ window.addEventListener("load", function () {
       ease: "none",
       onComplete: fetchAndDisplayAdvice,
     });
-
   });
 
   tl.to(".container", { opacity: 1, duration: 0.5 });
@@ -40,8 +39,9 @@ function fetchAndDisplayAdvice() {
       clearProps: "all",
       ease: "none",
       onComplete: () => {
-        setTimeout(() => { button.disabled = false; }, 500);
-        
+        setTimeout(() => {
+          button.disabled = false;
+        }, 500);
       },
     });
   });
@@ -51,8 +51,6 @@ const getAdvice = () => {
   return axios
     .get("https://api.adviceslip.com/advice")
     .then((res) => {
-      
-
       textField.innerHTML = res.data.slip.advice;
       id.innerHTML = res.data.slip.id;
       console.log(res);
@@ -74,7 +72,6 @@ const getAdvice = () => {
 
         quoteElement.appendChild(wordSpan);
       });
-      
     })
     .catch((err) => {
       console.log(err);

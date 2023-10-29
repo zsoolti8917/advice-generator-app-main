@@ -1,4 +1,4 @@
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,60 +9,62 @@ body{
     font-weight: 800;
 }
 
-.container{
-background-color: $secondary-color-800;
-padding: 2rem;
-border-radius: 1rem;
-box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
-opacity: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1rem;
-margin: 1rem;
-max-width: 34rem;
-position: relative;
-text-align: center;
-height: auto;
-.advice-header{
-    color: $primary-color-400;
-    font-size: $font-size-200;
-}
+.container {
+    background-color: $secondary-color-800;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    max-width: 34rem;
+    position: relative;
+    text-align: center;
+    height: auto;
 
-.advice{
-    font-size: $font-size-600;
-    color: $primary-color-200;
-}
-
-picture{
-width: 100%;
-margin: 2rem 0;
-img{
-    width: 100%;
-}
-}
-
-.advice-button{
-    background-color: $primary-color-400;
-    border: none;
-    border-radius: 10rem;
-    padding: 1rem 1rem;
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
-    &:disabled {
-        background-color: #cccccc; /* Change to a grayish color to indicate it's disabled */
-        cursor: not-allowed;      /* Display a 'not-allowed' cursor */
-        opacity: 0.6;             /* Reduce opacity to make it look inactive */
+    .advice-header {
+        color: $primary-color-400;
+        font-size: $font-size-200;
     }
 
-    
-    
-}
+    .advice {
+        font-size: $font-size-600;
+        color: $primary-color-200;
+    }
+
+    picture {
+        width: 100%;
+        margin: 2rem 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .advice-button {
+        background-color: $primary-color-400;
+        border: none;
+        border-radius: 10rem;
+        padding: 1rem 1rem;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+
+        &:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+
+
+    }
 
 
 
 }
-

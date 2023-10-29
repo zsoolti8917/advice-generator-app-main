@@ -29,6 +29,8 @@ body {
     .advice-header {
         color: $primary-color-400;
         font-size: $font-size-200;
+        text-transform: uppercase;
+        letter-spacing: 5px;
     }
 
     .advice {

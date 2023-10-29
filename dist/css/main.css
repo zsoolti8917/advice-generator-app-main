@@ -101,6 +101,8 @@ body {
 .container .advice-header {
   color: hsl(150, 100%, 66%);
   font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .container .advice {
   font-size: 1.75rem;

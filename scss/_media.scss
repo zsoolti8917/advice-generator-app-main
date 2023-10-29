@@ -1,0 +1,23 @@
+@include media-md{
+
+}
+
+@include media-lg{
+.container{
+    padding: 3rem;
+
+    .advice-header{
+        font-size: $font-size-300;
+    }
+
+    .advice{
+        font-size: $font-size-600;
+    }
+}
+}
+
+@include media-xl{
+
+
+    
+}

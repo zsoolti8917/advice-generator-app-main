@@ -32,27 +32,27 @@ Users should be able to:
 ### Screenshot
 
 Finished project on a 1440px screen
-![Finished project on 1440px](solution/PC%20solution.png)
+![Finished project on 1440px](solution/PC.png)
 
 Finished project on a 375px screen
 <br />
-![Finished project on 375px](solution/Phone%20solution.png)
+![Finished project on 375px](solution/Phone.png)
 
 ### Links
 
-- Solution URL: [solution on my frontend mentor profile](https://www.frontendmentor.io/profile/zsoltvarju)
-- Live Site URL: [live site on netlify](https://helpful-tanuki-5f3094.netlify.app/)
+- Solution URL: [solution on my frontend mentor profile](https://www.frontendmentor.io/profile/zsoltvarju/solutions)
+- Live Site URL: [live site on netlify](https://taupe-raindrop-e059f9.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- SCSS
 - Mobile-first workflow
 - Javascript
+- GSAP
+- AXIOS
 
 ### What I learned
 
